@@ -1,0 +1,110 @@
+:root{
+    --cor-primaria-inicio : #ffffff;
+    --cor-hover-inicio : #fdeaed;
+    --cor-secundaria-inicio : #FFC0CB;
+
+    --cor-primaria-agendamento : #ffffff;
+    --cor-hover-agendamento : #fdeaed;
+    --cor-secundaria-agendamento : #FFC0CB;
+
+    --cor-primaria-cadastro : #ffffff;
+    --cor-hover-cadastro : #fdeaed;
+    --cor-secundaria-cadastro : #FFC0CB;
+
+    --cor-primaria-login : #ffffff;
+    --cor-hover-login : #fdeaed;
+    --cor-secundaria-login : #FFC0CB;
+}
+
+
+/*BNT-CONFIG GERAL*/
+
+.bnt{
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    font-size: 16px;
+    height: 70px;
+    width: 100px;
+}
+
+
+/*BNT INICIO*/
+
+.btn-inicio{
+    background-color: var(--cor-primaria-inicio);
+    outline: none;
+    color: var(--cor-secundaria-inicio);
+}
+
+.btn-inicio:hover{
+    background-color: var(--cor-hover-inicio);
+}
+
+
+/*BNT AGENDAMENTO*/
+
+.btn-agendamento{
+    background-color: var(--cor-primaria-agendamente);
+    outline: none;
+    color: var(--cor-secundaria-agendamento);
+}
+
+.btn-agendamento:hover{
+    background-color: var(--cor-hover-agendamento);
+}
+
+
+/*BNT CADASTRO*/
+
+.btn-cadastro{
+    background-color: var(--cor-primaria-cadastro);
+    outline: none;
+    color: var(--cor-secundaria-cadastro);
+}
+
+.btn-cadastro:hover{
+    background-color: var(--cor-hover-cadastro);
+}
+
+
+/*BNT LOGIN*/
+
+.btn-login{
+    background-color: var(--cor-primaria-login);
+    outline: none;
+    color: var(--cor-secundaria-login);
+}
+
+.btn-login:hover{
+    background-color: var(--cor-hover-login);
+}
+
+
+/*HEADER GERAL*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.perfil{
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    background-color: #FFC0CB;
+    margin: 13px;
+}
+
+.logo{
+    padding-inline-end: 60%;
+}
+
+header{
+    height: 7vh;
+    display:flex;
+    box-shadow: 0 0 1rem gray;
+    flex-direction: row-reverse;
+}
+
